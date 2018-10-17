@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <Button android:id="@+id/b_add_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Course"/>
+
+    <Button android:id="@+id/b_get_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b_add_course"
+            android:text="Get Course"/>
+
+    <Button android:id="@+id/b_add_student"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Student"
+            android:layout_below="@+id/b_get_course"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b_get_student"
+            android:layout_below="@+id/b_add_student"
+            android:text="Get Students"/>
+
+
+</RelativeLayout>
